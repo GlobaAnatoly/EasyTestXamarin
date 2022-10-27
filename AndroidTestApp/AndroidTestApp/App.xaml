@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidTestApp.App">
+    <Application.Resources>
+        <Style ApplyToDerivedTypes="true" TargetType="NavigationPage">
+            <Setter Property="BarTextColor" Value="#004D40" />
+            <Setter Property="BarBackgroundColor" Value="#80CBC4"/>
+
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="TextColor" Value="#004D40" />
+            <Setter Property="BackgroundColor" Value="#80CBC4" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="FontAttributes" Value="Italic"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Application.Resources>
+</Application>

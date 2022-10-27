@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidTestApp.MainPage"
+             Title="Eesy Test">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Выйти"  Clicked="OnLogoutButtonClicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <Label x:Name="studentName" VerticalOptions="Center"></Label>
+        <Button x:Name="studentsTestButton"></Button>
+        <Button x:Name="allTestsButton"></Button>
+    </StackLayout>
+    <!--<ListView x:Name="listView" 
+              Margin="20" 
+             >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="20,0,0,0" 
+                                 HorizontalOptions="StartAndExpand"
+                                 Orientation="Horizontal">
+                        <Label Text="{Binding name}" 
+                               VerticalTextAlignment="Center" />
+                        <Label Text="{Binding teacherId}" 
+                               VerticalTextAlignment="Center" />
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>-->
+</ContentPage>
